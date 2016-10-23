@@ -1,0 +1,38 @@
+.content{
+    background-color: whitesmoke;
+    font-family: Microsoft JhengHei;
+}
+.swiper{
+    height: 200px;
+}
+.stories{
+    margin: 5px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 1px lightgray;
+    border-radius: 3px;
+    background-color: white;
+}
+.pic image{
+    width: 90px; 
+    height: 75px;
+}
+.title{
+    padding-left: 15px;
+    font-size: 20px;
+    line-height: 21px;
+}
+.headline{
+    font-size:15px; 
+    margin:17px;
+    color: gray;
+}
+.topTitle{
+    position: absolute;
+    font-size: 23px;
+    color:white;
+    bottom:0;
+    margin-bottom: 25px;
+    padding: 0 15px;
+}

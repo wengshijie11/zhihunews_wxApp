@@ -1,0 +1,27 @@
+<view class="content">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+                <view class="topTitle">
+                    <text>{{item.title}}</text>
+                </view>
+                <image src="{{item.image}}" class="slide-image" style="width:100%; "mode="aspectFill"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    
+    <view class="headline">今日热闻</view>
+
+    <view wx:for="{{stories}}" class="stories">
+        <view class="pic">
+            <image src="{{item.text}}" mode="aspectFill"/>
+        </view>
+
+        <view class="title">
+                {{item.title}}
+        </view>
+    </view>
+
+
+</view>
